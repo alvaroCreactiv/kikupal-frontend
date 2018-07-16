@@ -1,0 +1,391 @@
+.facebook{
+	cursor:pointer;
+}
+
+.facebook p{
+	background:#46639f;
+	color:white;
+	text-align:center;
+	line-height:40px;
+	padding:8px;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:20px;
+	margin: 15px auto;
+	width: auto;
+	border-radius: 10px;
+}
+
+.fondo ul li{
+	padding: 15px;	
+	
+}
+.fondo ul li .recipient{
+	background-color: rgba(255,255,255,0.9);
+	padding: 20px;
+	border: 1px solid #DAD9DE;
+	border-radius: 5px;	
+}
+.fondo h1{
+	padding: 0px;
+	margin: 10px;
+}
+
+.recipient {
+	text-align: center;
+}
+.fondo ul li .description{
+	height: 200px;	
+}
+
+.fondo{
+	background-image: url('../img/C1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.grid ul{
+	margin-top: 25px;
+}
+.gift{
+	padding:0px 70px;
+}
+.descripcion{
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 100px;
+	max-height: 100px;
+
+}
+.circle{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 5px;
+}
+.avatar{
+	padding-top: 10px;
+}
+.kv-avatar{
+	padding-top: 50px; ;
+}
+#inputFile{
+	display: none;
+}
+.input-label{
+	cursor: pointer;
+}
+.progres{
+	position: relative;
+	width:50%;
+	height: 12px;
+	background: #EF8C3A;
+	border-radius: 0px;
+}
+form .checkBox .iubenda .iubenda-ibadge{
+	margin-bottom: -5px;
+	margin-left: 10px;
+}
+
+.fondo .banner{
+	background-color: rgba(239, 140, 58,0.1);
+}
+
+.modal-dialog{
+	width: 80%;
+}
+
+.or-wrapper{
+	max-width: 325px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.or-divider {
+	vertical-align: middle;
+	text-transform: uppercase;
+	color: #9e9e9e;
+}
+.or-divider::before{
+	content: " ";
+	display: inline-block;
+	border-top: 1px solid #ccc;
+	width: 45%;
+	float: left;
+	vertical-align: middle;
+	margin-top: 9px;
+	margin-right: 9px;
+}
+.or-divider::after{
+	content: " ";
+	display: inline-block;
+	border-top: 1px solid #ccc;
+	width: 45%;
+	float: right;
+	vertical-align: middle;
+	margin-top: 9px;
+}
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+	.jumbotron{
+		margin-top: 30px;
+		position: relative;
+		float: right;
+		right: 5px;
+		width: 90%;
+		height: auto;
+		padding:20px 10px !important;
+		border-radius: 45px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+	}
+	.gift{
+		padding:0px 30px;
+	}
+	.avatar{
+		padding-top: 20px;
+	}
+	.fondo{
+		background-image: url('../img/C1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.well{
+		margin: 30px 0px;
+	}
+	.bannerInfo{
+		background-color: #fff;
+		color: ##575555;
+	}
+	.bannerInfo h1{
+		font-size: 2em;
+
+	}
+}
+
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.jumbotron{
+		margin-top: 30px;
+		position: relative;
+		float: right;		
+		width: 100%;
+		height: auto;
+		padding:20px 10px !important;
+		border-radius: 45px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+	}
+	.gift{
+		padding:0px 30px;
+	}
+	.bannerInfo h1{
+		font-size: 1.6em;
+
+	}
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+	.jumbotron{
+		margin-top: 20px;
+		position: relative;
+		float: right;
+		right: 0px;
+		width: 100%;
+		height: auto;
+		padding:20px 10px !important;
+		border-radius: 15px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+	}
+	.gift{
+		padding:0px 50px;
+	}
+	.bannerInfo h1{
+		font-size: 1.2em;
+
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+	.jumbotron{
+		margin-top: 20px;
+		position: relative;
+		float: right;
+		right: 0px;
+		width: 100%;
+		height: auto;
+		padding:20px 10px !important;
+		border-radius: 15px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+	}
+	.gift{
+		padding:0px 10px;
+	}
+	.avatar{
+		padding-top: 20px;
+	}
+	.kv-avatar{
+		padding-top: 10px; ;
+		text-align: center;
+	}
+	.fondo{
+		background-image: url('../img/C1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.opciones{
+		text-align: center;
+	}
+
+	.bannerInfo h1{
+		font-size: 1.2em;
+
+	}
+
+	.or-divider::before{
+		content: " ";
+		display: inline-block;
+		border-top: 1px solid #ccc;
+		width: 40%;
+		float: left;
+		vertical-align: middle;
+		margin-top: 9px;
+		margin-right: 9px;
+	}
+	.or-divider::after{
+		content: " ";
+		display: inline-block;
+		border-top: 1px solid #ccc;
+		width: 40	%;
+		float: right;
+		vertical-align: middle;
+		margin-top: 9px;
+	}
+}
+
+
+.testimonial .tBtn{
+	display: grid;
+	margin-top: 15px;
+}
+.testimonial{
+	background: rgba(255,255,255,0.2);
+	text-align: center;
+	margin: 0 20px;
+}
+.testimonial .description{
+	padding: 40px 30px;
+	margin-bottom: 50px;
+	border-top: 1px solid #2660a4;
+	border-left: 1px solid #2660a4;
+	font-size: 15px;
+	color: #887e7f;
+	line-height: 30px;
+	text-align: left;
+	position: relative;
+	height: 215px;
+	overflow: hidden;
+}
+.testimonial .description:before{
+	content: "\f10e";
+	font-family: fontawesome;
+	display: inline-block;
+	float: left;
+	padding: 0 15px 5px 0;
+	font-size: 30px;
+	color: #ff5a5f;
+	text-align: center;
+	position: relative;
+	top: 8px;
+	left: 0;
+}
+.testimonial .description:after{
+	content: "";
+	width: 50%;
+	height: 1px;
+	background: #2660a4;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.testimonial .testimonial-content{ position: relative; }
+.testimonial .testimonial-content:before{
+	content: "";
+	width: 1px;
+	height: 20px;
+	background: #2660a4;
+	position: absolute;
+	top: -50px;
+	left: 50%;
+}
+.testimonial .testimonial-content:after{
+	content: "";
+	width: 2px;
+	height: 40px;
+	background: #2660a4;
+	position: absolute;
+	top: -70px;
+	left: 50%;
+	transform: skewX(-45deg);
+	transform-origin: 100% 100% 0;
+}
+.testimonial .pic{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-right: 7px;
+}
+.testimonial .pic img{
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.testimonial .title{
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 700;
+	color: #2660a4;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+.owl-theme .owl-controls{
+	margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-page span{
+	width: 15px;
+	height: 10px;
+	border-radius: 0;
+	background: #ff5a5f;
+	opacity: 0.8;
+	transition: all 0.3s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span{
+	width: 35px;
+	background: #2660a4;
+}

@@ -1,0 +1,25 @@
+/*=============================================
+CARRITO DE COMPRAS
+=============================================*/
+.cabeceraGift{
+	height:40px;
+}
+
+.cabeceraGift h3{
+	margin-top:-5px
+}
+
+.cabeceraCheckout{
+	height:66px;
+}
+
+.panel{
+	margin-top: 20px;
+}
+/*=============================================
+CHECKOUT
+=============================================*/
+
+.contenidoCheckout, .contenidoCheckout .row{
+	padding:0px 20px;
+}

@@ -1,0 +1,210 @@
+.fondo{
+	background-image: url('../img/C2-1920x840.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+.btnContri{
+	color: #fff;	
+	margin-bottom: 10px;
+}
+.progres{
+	position: relative;
+	width: 100%;
+	height: 12px;
+	background: #EF8C3A;
+	border-radius: 0px;
+}
+.circle{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	position: relative;
+	margin-top: 30px;
+}
+
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	.jumbotron{
+		margin: 50px auto;
+		position: relative;	
+		width: 40%;
+		height: auto;
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+		border-radius: 45px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+		overflow: hidden;
+		text-align: center;
+	}
+	.jumbotron h1{
+		
+		font-size: 3em;
+		color: #424242;		
+		font-weight: 700;
+		line-height: 15px;
+		color: 353535;
+
+	}
+	.jumbotron ul li h1 small{
+		text-transform: capitalize;
+		font-size: 20px;
+		font-weight: 700;
+		color: #575656;
+	}
+	.jumbotron ul li p{
+		font-size: 15px;
+	}
+	.jumbotron ul li{
+		margin: 10px 0px;
+	}
+	.btnContri{
+		color: #fff;	
+		margin-bottom: 10px;
+		width: 100px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.jumbotron{
+		margin: 20px auto;
+		position: relative;	
+		width: 60%;
+		height: auto;
+		padding: 10px !important;		
+		border-radius: 15px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+		overflow: hidden;
+		text-align: center;
+	}
+	.jumbotron h1{
+		
+		font-size: 2.5em;
+		color: #353535;		
+		font-weight: 700;
+		line-height: 15px;
+
+	}
+	.jumbotron ul li h1 small{
+		text-transform: capitalize;
+		font-size: 20px;
+		font-weight: 700;
+		color: #575656;
+	}
+	.jumbotron ul li p{
+		font-size: 15px;
+	}
+	.jumbotron ul li{
+		margin: 10px 0px;
+	}
+	.btnContri{
+		color: #fff;	
+		margin-bottom: 10px;
+		width: 150px;
+	}
+	
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+	.jumbotron{
+		margin: 20px auto;
+		position: relative;	
+		width: 80%;
+		height: auto;
+		padding: 10px !important;		
+		border-radius: 15px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+		overflow: hidden;
+		text-align: center;
+	}
+	.jumbotron h1{
+		
+		font-size: 2.5em;
+		color: #353535;		
+		font-weight: 700;
+		line-height: 15px;
+
+	}
+	.jumbotron ul li h1 small{
+		text-transform: capitalize;
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.jumbotron ul li p{
+		font-size: 15px;
+	}
+	.jumbotron ul li{
+		margin: 10px 0px;
+	}
+	.btnContri{
+		color: #fff;	
+		margin-bottom: 10px;
+		width: 150px;
+	}
+	
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+	.jumbotron{
+		margin: 20px auto;
+		position: relative;	
+		width: 90%;
+		height: auto;
+		padding: 10px !important;		
+		border-radius: 15px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+		overflow: hidden;
+		text-align: center;
+	}
+	.jumbotron h1{
+		font-size: 2em;
+		color: #353535;		
+		font-weight: 700;
+		line-height: 15px;
+
+	}
+	.jumbotron h3{
+		font-size:15px;
+	}
+	.jumbotron ul li h1 small{
+		text-transform: capitalize;
+		font-size: 15px;
+		font-weight: 700;
+	}
+	.jumbotron p{
+		font-size: 15px;
+	}
+	.btnContri{
+		color: #fff;	
+		margin-bottom: 10px;
+		width: 150px;
+	}
+	
+}

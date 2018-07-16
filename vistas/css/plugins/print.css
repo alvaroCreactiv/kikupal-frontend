@@ -1,0 +1,46 @@
+
+/*Orientación vertical*/
+@page {
+	size: portrait;
+	/*size: A4; standar A4*/
+	padding: 10%;
+}
+/*Orientación apaisada*/
+
+
+body { 
+	background: #fff;
+	color: #000; 
+	float: none !important;
+	width: auto !important;
+	margin:  0 !important;
+	padding: 0 !important;
+	font-size: 14pt;
+	font-family: Verdana, "Times New Roman", Times, serif !important;
+}
+
+.nav-tabs{
+	page-break-before:right;
+}
+
+h1{
+	font-size: 32pt !important;
+	font-family: Verdana, "Times New Roman", Times, serif;
+}
+
+li {
+	font-size: 14pt !important;
+	font-family: Verdana, "Times New Roman", Times, serif;
+}
+
+header, footer { display: none; }
+
+.cont-men, h2, .head, .btn, #search, .nav-brand, .rrssb-buttons, .rrssb-1, .items-rel, .eventos, .bx-viewport, .bxslider, .redes{
+	display: none; 
+}
+
+.wrapper { margin: 0 auto; font-size: 9pt; width: 100%; max-width: none; padding: 4%; }
+
+a { text-decoration: none; font-weight: bold; color: #000; }
+
+a:after { content: " [" attr(href) "] "; font-weight: normal; }

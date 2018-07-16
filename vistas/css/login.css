@@ -1,0 +1,69 @@
+.modalFormulario{
+	padding:5px 0px;
+}
+
+.modalFormulario h3{
+	text-align:center;
+	margin-top:-5px;
+	padding:15px 0px;
+	border-radius:5px 5px 0px 0px;
+	background: #00B6AB;
+	color: #fff;
+}
+.modalFormulario .facebook, .modalFormulario .google{
+	cursor:pointer;
+}
+.fondo{
+	background-image: url('../img/C1.jpg');
+}
+.modalFormulario .facebook p{
+	background:#46639f;
+	color:white;
+	text-align:center;
+	line-height:40px;
+	padding:8px;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:20px;
+	margin: 15px auto;
+	width: 300px;
+	border-radius: 10px;
+}
+
+.modalFormulario p i{
+	margin-left:-25px;
+	margin-right:25px;
+	font-size:25px;	
+}
+
+.modalFormulario form{
+	padding:20px;
+}
+
+.modalFormulario form hr{
+	border:1px solid #eee;
+}
+
+.modalFormulario form input[type="text"], .modalFormulario form input[type="email"], .modalFormulario form input[type="password"]{
+	padding:5px;
+	color: #555555;
+}
+.modalFormulario form input[type="submit"]{
+	padding:15px;
+}
+
+.modalFormulario form .checkBox{
+	margin-top:10px;
+}
+.jumbotron{
+	margin-top: 30px;
+	position: relative;
+	left: 50%;	
+	margin-left: -300px ;
+	width: 600px;
+	height: auto;
+	padding:0px !important;
+	border-radius: 5px	 !important;
+	box-shadow: 0px 0px 7px 0px #000;
+	background-color: rgba(255,255,255,0.9);
+}

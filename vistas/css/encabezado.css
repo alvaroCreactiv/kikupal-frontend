@@ -1,0 +1,417 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	text-decoration: none;
+	/*/font-family: 'Ubunt', sans-serif;*/
+}
+
+ul, ol{
+	padding:0px;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+	list-style: none;
+	text-decoration: none;
+}
+a{
+	color: #EF0C5C;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.sp{
+	padding-left: 150px;
+	margin-bottom: 10px;
+}
+.login{
+	padding-right: 150px;
+	margin-top: 10px;
+	text-align: right;
+}
+.login ul li{
+	display:inline;
+	line-height:30px;
+	margin:0px 5px;
+	color:#777;
+	text-align: center;
+	font-size: 1.6em;
+}
+
+.logo{
+	width: 350px;
+	height: auto;
+	position: relative;
+	display: block;
+	margin-top: 10px;
+}
+
+#ventana2{
+	width: 100%;
+	height: 100%;
+	color: #000;
+	position: fixed;
+	/*background-image: url(../img/bg-modal.png);*/
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+	display:none;
+	z-index: 1000;
+}
+
+.resSearchNav{
+	overflow: auto;
+	height: 390px;
+	width: 100%;
+	padding-right: 10px;
+}
+
+.resSearchNav::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #394457;
+}
+
+.resSearchNav::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #2e2b2d;
+}
+
+.resSearchNav::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #ed9622;
+}
+
+.icoCerrar{
+	float: right;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top:-20px;
+	right: -15px;
+	z-index: 1000;
+}
+
+.contributor{
+	padding: 0px 20px;
+}
+/*=============================================
+VENTANAS MODALES
+=============================================*/
+
+.modalTitulo{
+	padding:5px 0px;
+}
+
+.modalTitulo h3{
+	text-align:center;
+	margin-top:-5px;
+	padding:15px 0px;
+	border-radius:5px 5px 0px 0px;
+	background: #00B6AB;
+	color: #fff;
+}
+
+.modalFormulario .close{
+	position:absolute;
+	right:27px;
+	top:15px;
+	color:white;
+}
+
+.modalFormulario form{
+	padding:20px;
+}
+
+.modalFormulario form hr{
+	border:1px solid #eee;
+}
+
+.modalFormulario form input[type="text"], .modalFormulario form input[type="email"], .modalFormulario form input[type="password"]{
+	padding:5px;
+	color: #555555;
+}
+.modalFormulario form input[type="submit"]{
+	padding:15px;
+}
+
+.modalFormulario form .checkBox{
+	margin-top:10px;
+}
+
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+	.base h1{
+		font-size: 2.5em;
+		margin-top: 30px;
+	}
+	.nav-float{		
+		width: 30%;		
+		padding-right: 25px;
+		display: inline-flex;
+
+	}
+	.marco2{
+		background-color: #fff;
+		position: absolute;
+		left: 50%;
+		top: 10%;
+		width: 700px;
+		height: 500px;
+		margin-top: 60px;
+		margin-left: -350px;
+		z-index: 0;
+		border: 5px solid #575555;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		-o-border-radius: 10px 10px 10px 10px;
+		padding: 0px 30px;
+		text-align: left;	
+	}
+	.base{
+		padding: 25px;
+		position: relative;
+		height: 80px;		
+		text-align: right;		
+	}
+	.preSearch{
+		display: inline-flex;
+	}
+	.preSearch span{						
+		font-size: 1.1em;
+	}
+	
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+	.sp{
+		padding-left: 100px;
+		margin-bottom: 20px;
+	}
+	.logo{
+		width: 250px;
+		height: auto;
+		position: relative;
+		display: block;
+		margin-top: 10px;
+	}
+	.base{
+		padding-left: 100px;
+		position: relative;
+		height: 100px;
+		color: #fff;
+		background: #CE0C5B;
+	}
+	.base h1{
+		font-size: 2.1em;
+		margin-top: 30px;
+	}
+	
+	.nav-float{		
+		width: 30%;		
+		padding-right: 25px;
+		display: inline-flex;
+
+	}
+	.marco2{
+		background-color: #fff;
+		position: absolute;
+		left: 50%;
+		top: 5%;
+		width: 700px;
+		height: 500px;
+		margin-top: 60px;
+		margin-left: -350px;
+		z-index: 0;
+		border: 5px solid #575555;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		-o-border-radius: 10px 10px 10px 10px;
+		padding: 0px 30px;
+		text-align: left;
+	}
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	.preSearch{
+		display: inline-flex;
+	}
+	.preSearch span{
+		display: inline-block;		
+		margin-top: 30px;
+		font-size: 1.1em;
+	}
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	.sp{
+		padding-left: 20px;
+		margin-bottom: 10px;
+	}
+	.logo{
+		width: 200px;
+		height: auto;
+		position: relative;
+		display: block;
+		margin-top: 10px;
+	}
+	.base{
+		padding-left: 20px;
+		position: relative;
+		height: 80px;
+		color: #fff;
+		background: #CE0C5B;
+		text-align: right;
+
+	}
+	.base h1{
+		font-size: 2.1em;
+	}
+	.nav-float{		
+		width: 45%;		
+		padding-right: 25px;
+		display: inline-flex;
+	}
+	.marco2{
+		background-color: #fff;
+		position: absolute;
+		left: 50%;
+		top: 5%;
+		width: 600px;
+		height: 500px;
+		margin-top: 60px;
+		margin-left: -300px;
+		z-index: 0;
+		border: 5px solid #575555;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		-o-border-radius: 10px 10px 10px 10px;
+		padding: 0px 30px;
+		text-align: left;
+	}
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	.preSearch{
+		display: inline-flex;
+	}
+	.preSearch span{
+		display: inline-block;		
+		margin-top: 25px;
+		font-size: 1.1em;
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+	.sp{
+		padding-left: 10px;
+		margin-bottom: 10px;
+	}
+	.logo{
+		width: 200px;
+		height: auto;
+		position: relative;
+		display: block;
+		margin-top: 10px;
+	}
+	.base{
+		padding-left: 10px;
+		position: relative;
+		height: 80px;
+		color: #fff;
+		background: #CE0C5B;
+		text-align: center;
+	}
+	.base h1{
+		font-size: 2.1em;
+	}
+	.nav-float{
+		z-index: 999;
+		top: 10px;
+		width: 100%;
+		float: right;
+		padding-right:0px;
+	}
+	.marco2{
+
+		background-color: #fff;
+		position: absolute;
+		left: 50%;
+		top: 2%;
+		width: 300px;
+		height: 500px;
+		margin-top: 5px;
+		margin-left: -150px;
+		z-index: 0;
+		border: 5px solid #575555;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		-o-border-radius: 10px 10px 10px 10px;
+		padding: 0px 10px;
+		text-align: center;
+	}
+	.marco2 figure{
+		width: 100px;
+		margin: auto;		
+	}
+	.marco2 h1{
+		font-size: 1.8em;
+	}
+	.marco2 p{
+		display: none;
+	}
+	.marco2 ul li{
+		margin-bottom: 10px;
+		margin-bottom: 2px #000;
+	}
+	.login{
+		padding-right: 0px;
+		margin-top: 10px;
+		text-align: left;
+	}
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	.preSearch{
+
+	}
+	.preSearch span{
+		display: block;		
+		margin-top: 5px;
+	}
+	
+} 

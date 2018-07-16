@@ -1,0 +1,317 @@
+.facebook{
+	cursor:pointer;
+}
+
+.facebook p{
+	background:#46639f;
+	color:white;
+	text-align:center;
+	line-height:40px;
+	padding:8px;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:20px;
+	margin: 15px auto;
+	width: auto;
+	border-radius: 10px;
+}
+
+.fondo{
+	background-image: url('../img/C3-1920x850.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+.btnContri{
+	background: #29B6AC;
+	color: #fff;	
+}
+.progres{
+	position: relative;
+	width: 60%;
+	height: 12px;
+	background: #EF8C3A;
+	border-radius: 0px;
+}
+.circle{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	position: relative;
+	margin-top: 30px;
+}
+.radio{
+	margin: 0px !important;
+	position: relative;
+}
+
+.modalTerminos .modal-dialog{
+	width: 80%;
+	margin: 30px auto;
+
+}
+
+.modalTerminos .close{
+	position: absolute;
+	right: 27px;
+	top: 15px;
+	color: white;
+}
+
+.contenido{
+	padding: 2px 20px;
+}
+
+
+.or-wrapper{
+	max-width: 325px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.or-divider {
+	vertical-align: middle;
+	text-transform: uppercase;
+	color: #9e9e9e;
+}
+.or-divider::before{
+	content: " ";
+	display: inline-block;
+	border-top: 1px solid #ccc;
+	width: 45%;
+	float: left;
+	vertical-align: middle;
+	margin-top: 9px;
+	margin-right: 9px;
+}
+.or-divider::after{
+	content: " ";
+	display: inline-block;
+	border-top: 1px solid #ccc;
+	width: 45%;
+	float: right;
+	vertical-align: middle;
+	margin-top: 9px;
+}
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+	.jumbotron{
+		margin: 50px auto;
+		position: relative;	
+		width: 60%;
+		height: auto;
+		padding: 15px 20px !important;
+		border-radius: 45px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+		overflow: hidden;	
+	}
+	.jumbotron h1{
+		font-size: 1.5em;
+	}
+	.jumbotron h1 small{
+		font-size: 1.5em;
+	}
+	.jumbotron ul{
+		text-align: center;
+		font-size: 18px;
+	}
+	.jumbotron ul li{
+		display: inline-block;
+		text-align: center;
+	}
+	.jumbotron ul li .radio{
+		position: relative;
+		text-align: center;
+	}
+	.jumbotron ul li .radio input{
+		position: relative;
+		margin: 0px !important;
+	}
+	.jumbotron p{
+		font-size: 15px;
+	}
+	.jumbotron textarea{
+		width: 350px;
+		max-width: 100%;
+	}
+	.pago{
+		margin-top: 10px;
+		width: 100px;
+		height: auto;
+	}
+	
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.jumbotron{
+		margin: 20px auto;
+		position: relative;	
+		width: 60%;
+		height: auto;
+		padding: 10px !important;		
+		border-radius: 15px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+		overflow: hidden;
+		text-align: left;
+	}
+	.jumbotron h1{
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.jumbotron h1 small{
+		font-size: 1.5em;
+	}
+	.jumbotron ul{
+		text-align: left;
+		font-size: 18px;
+	}
+	.jumbotron ul li{
+		text-align: center;
+	}
+	.jumbotron ul li .radio{
+		position: relative;
+		text-align: center;
+	}
+	.jumbotron ul li .radio input{
+		position: relative;
+		margin: 0px !important;
+	}
+	.jumbotron p{
+		font-size: 15px;
+		text-align: center;
+	}
+	.jumbotron textarea{
+		width: 350px;
+		max-width: 100%;
+	}
+	.pago{
+		margin-top: 10px;
+		width: 100px;
+		height: auto;
+	}
+	
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+	.jumbotron{
+		margin: 20px auto;
+		position: relative;	
+		width: 80%;
+		height: auto;
+		padding: 10px !important;		
+		border-radius: 15px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+		overflow: hidden;
+		text-align: center;
+	}
+	.jumbotron h1{
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.jumbotron h1 small{
+		font-size: 1.5em;
+	}
+	.jumbotron ul{
+		text-align: left;
+		font-size: 18px;
+	}
+	.jumbotron ul li{
+		text-align: center;
+	}
+	.jumbotron ul li .radio{
+		position: relative;
+		text-align: center;
+	}
+	.jumbotron ul li .radio input{
+		position: relative;
+		margin: 0px !important;
+	}
+	.jumbotron p{
+		font-size: 15px;
+		text-align: center;
+	}
+	.jumbotron textarea{
+		width: 350px;
+		max-width: 100%;
+	}
+	.pago{
+		margin-top: 10px;
+		width: 100px;
+		height: auto;
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+	.jumbotron{
+		margin: 20px auto;
+		position: relative;	
+		width: 90%;
+		height: auto;
+		padding: 10px !important;		
+		border-radius: 15px	 !important;
+		box-shadow: 0px 0px 7px 0px #000;
+		background-color: rgba(255,255,255,0.9);
+		overflow: hidden;
+		text-align: center;
+	}
+	.jumbotron h1{
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.jumbotron h1 small{
+		font-size: 1.5em;
+	}
+	.jumbotron ul{
+		font-size: 18px;
+	}
+	.jumbotron ul li{		
+		display: inline-block;
+	}
+	.jumbotron ul li .radio{
+		position: relative;
+		text-align: center;
+	}
+	.jumbotron ul li .radio input{
+		position: relative;
+		margin: 0px !important;
+	}
+	.jumbotron p{
+		font-size: 15px;
+		text-align: center;
+	}
+	.jumbotron h3{
+		font-size: 18px;
+	}
+	.jumbotron textarea{
+		width: 350px;
+		max-width: 100%;
+	}
+	.pago{
+		margin-top: 10px;
+		width: 100px;
+		height: auto;
+	}
+}
